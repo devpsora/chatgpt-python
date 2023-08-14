@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos</title>
+</head>
+<body>
+  <h1>Photos</h1>
+  <!-- 무조건 static 폴더에 넣어야 인식됨 -->
+  <img src="{{ url_for('static', filename='sun.jpg') }}" />
+</body>
+</html>
